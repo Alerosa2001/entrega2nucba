@@ -7,11 +7,11 @@
 }
 
 body {
-  background-color: #1a9964;
+  background-color: #00582c;
 }
 
 .header {
-  background-color: #168356;
+  background-color: #003e1f;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -64,61 +64,87 @@ body {
   color: #fb8500;
   transform: scale(1.1);
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: ;
+}
 #section_hero {
   margin: 0.5rem;
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   border-radius: 2rem;
   height: 300px;
-  width: 1260px;
-  background-color: #eceff1;
+  width: 1200px;
   gap: 1rem;
+  background-color: #007139;
 }
 .hero {
   justify-content: flex-start;
-  background-color: purple;
   flex-direction: column;
+  display: flex;
   padding: 0.5rem;
   border-radius: 1rem;
   height: 260px;
   width: 500px;
 }
 .hero h1 {
-  background-color: blue;
   padding: 1rem;
   border-radius: 1rem;
   height: 50px;
+  color: #e2f1f8;
+  font-size: 1.5rem;
 }
 .hero p {
   margin-top: 10px;
   margin-bottom: 10px;
   justify-content: flex-start;
-  background-color: red;
   padding: 1rem;
   border-radius: 1rem;
-  font-size: 14px;
+  font-size: 16px;
   height: 80px;
+  color: #e2f1f8;
 }
 .hero a {
+  text-align: center;
+  margin-top: 10px;
+  flex-direction: row;
   padding: 1rem;
   border-radius: 1rem;
   font-size: 700;
   color: #eceff1;
   text-decoration: none;
-  background-color: white;
-  /*transition: all 0.5s ease 0.1s;*/
+  transition: all 0.5s ease 0.1s;
 }
-  
-
-
+.hero a:hover {
+  color: #e2f1f8;
+  background-color: #fb8500;
+  transform: scale(1.1);
+}
 .hero_img {
   border-radius: 1rem;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start;
-  background-color: aquamarine;
   width: 500px;
   height: 260px;
+}
+#general {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #007139;
+  height: 150px;
+  width: 500px;
+}
+.general_description p {
+  color: #e2f1f8;
+  font-size: 16px;
 }
